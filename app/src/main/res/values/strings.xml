@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ExpensesManagement</string>
+    <string name="Expenses">Expenses</string>
+    <string name="ADD_Expenses">Add Expenses</string>
+    <string name="btn_str_1">Add</string>
+    <string name="expenses_month">Total Expenses</string>
+    <string name="balance">Total Pending Balance</string>
+    <string name="money">Rs.</string>
+    <string name="looking_for">What are you looking for?</string>
+    <string name="invoice_number">Invoice Number</string>
+    <string name="enter_invoice_number">Enter Invoice Number</string>
+    <string name="date">Date</string>
+    <string name="full_name">Full Name *</string>
+    <string name="mobile_number">Mobile Number *</string>
+    <string name="attach_invoice_details">Attach Invoice Details</string>
+    <string name="attach">+ Attach</string>
+    <string name="add">Add</string>
+    <string name="category">Enter Category</string>
+    <string name="total">Total</string>
+    <string name="paid_amount">Paid Amount</string>
+    <string name="balance_amount">Balance Amount</string>
+    <string name="rs_money">Rs.2500</string>
+</resources>

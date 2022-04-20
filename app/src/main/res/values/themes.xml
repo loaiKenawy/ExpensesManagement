@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ExpensesManagment" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="buttonStyle">@style/btn_customStyle</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/textColor</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="btn_customStyle" parent="Base.Widget.AppCompat.Button">
+        <item name="android:padding">20dp</item>
+        <item name="android:background">@drawable/btn_shape</item>
+        <item name="android:textColor">@color/secondary</item>
+    </style>
+    <style name="btn_normalStyle" parent="Base.Widget.AppCompat.Button">
+        <item name="android:padding">20dp</item>
+        <item name="android:background">@drawable/btn_shape_edit</item>
+        <item name="android:textColor">#2196F3</item>
+    </style>
+
+    <style name="date_picker" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/textColor</item>
+        <item name="colorAccent">@color/btn</item>
+    </style>
+</resources>
